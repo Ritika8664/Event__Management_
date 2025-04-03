@@ -1,0 +1,88 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+header {
+    background: black;
+    color: white;
+    padding: 15px 40px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+header .logo {
+    font-size: 24px;
+    font-weight: bold;
+}
+nav ul {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+    display: flex;
+}
+nav ul li {
+    margin-left: 20px;
+}
+nav ul li a {
+    color: white;
+    text-decoration: none;
+    font-size: 16px;
+}
+.about-top {
+    text-align: center;
+    font-weight: bold;
+    padding: 40px;
+    background-color: #f4f4f4;
+}
+.about-section {
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-start;
+    gap: 20%;
+    padding: 20px;
+    background: linear-gradient(to right, rgba(255, 94, 0, 0.8), rgba(255, 94, 0, 0.6));
+    color: white;
+    position: relative;
+    top: 0;
+}
+.about-content{
+    width: 45%;
+    height: 4rem;
+}
+.contact-info {
+    width: 45%;
+}
+.headtext{
+    font-size: xx-large;
+    font-weight: 00;
+    color: #f4f4f4;
+    align-self: self-start;
+    
+}
+.contact-info h2 {
+    text-transform: uppercase;
+}
+footer {
+    text-align: center;
+    padding: 15px;
+    background-color: black;
+    color: white;
+}
+footer a {
+    color: white;
+    text-decoration: none;
+}
+#img{
+    width: 50%;
+    height: 40%;
+    justify-items: center;
+}
+.para{
+    font-size: large;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: bold;
+    justify-content: center;
+    color: rgb(55, 45, 32);
+}

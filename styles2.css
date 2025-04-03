@@ -1,0 +1,326 @@
+body, html {
+    height: 100%;
+    margin: 0;
+    font-family: Arial, sans-serif;
+    background-color: #f0e4d7; 
+}
+
+/* Dark Mode */
+body.dark-mode {
+    background-color: #333;
+    color: white;
+}
+
+.background-container {  
+    background-image: url("backgroungimgg.jpg");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    transform: initial;
+    opacity: 0.8;
+}
+
+.special-paragraph{
+    background: linear-gradient(to right, rgba(231, 228, 226, 0.8), rgba(245, 198, 171, 0.6));
+    color: rgb(0, 0, 0);         /* Text color */
+    font-size: 18px;     /* Font size */
+    font-family: Arial, sans-serif; /* Font family */
+    line-height: 1.5;   /* Line height */
+    text-align: justify; /* Text alignment */
+    padding-right: 8px;
+}
+
+
+.special-paragraph2{
+    text-align: center;
+    font-family: 'Secular One', sans-serif;
+    color: #ff5f6a;
+    font-size: 40px; 
+    font-weight: 900;
+    }
+
+.p3{
+    display: block;
+    margin-block-start: 1em;
+    margin-block-end: 1em;
+    margin-inline-start: 0px;
+    margin-inline-end: 0px;
+    unicode-bidi: isolate;
+    text-align: center;
+    font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol", "Noto Color Emoji";
+    font-size: 1.2rem;
+    font-weight: 400;
+    line-height: 1.5;
+    color: #212529;
+    font: bolder;  
+    }
+
+.form-container {
+    background-size: cover;
+    background-color: #FFC55C; 
+    background: linear-gradient(to right, rgba(254, 196, 162, 0.8), rgba(255, 94, 0, 0.6));
+    padding-top: 15px;
+    padding-bottom: 15px;
+    padding-left: 100px;
+    padding-right: 50px;
+    border-radius: 1px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    display: block;
+    margin-top: 0em;
+    unicode-bidi: isolate;
+}
+
+.label-size {
+    display: inline-block;
+    width: 180px; /* Set the desired width */
+}
+
+.input-size {
+    width: 200px; /* Set the desired width */
+    margin-bottom: 10px;
+}
+
+button {
+    display: inline-block;
+    padding: 10px 20px;
+    background-color: #2d9030;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+button:hover {
+    background-color: #45a049;
+}
+
+.navbar {
+    height: 60px;
+    background-color: #0f1111;
+    color: white;
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    display: flex;
+    padding: 10px 20px;
+}
+
+.nav-logo {
+    height: 50px;
+    width: 100px;
+}
+.logo-container {
+    width: 100px; /* Set the desired width */
+    height: 50px;  /* Set the desired height */
+    overflow: hidden; /* Prevents overflow */
+    display: flex; /* Centers the logo */
+    align-items: center;
+    justify-content: center;
+  }
+  
+  .logo {
+    max-width: 100%; /* Ensures it fits within the container */
+    max-height: 100%;
+    object-fit: contain; /* Maintains aspect ratio */
+  }
+  
+
+
+.selecting{
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    height: 50px;
+    width: 100px;
+    box-sizing: border-box;
+}
+
+.selecting:hover {
+    background-color: #45a049;
+}
+  
+
+/* Container to align text and dropdown */
+.dropdown-container {
+    display: flex;
+    align-items: center;
+    position: relative;
+}
+
+/* Styling the button to look like "Services" */
+.dropdown-btn {
+    background: none;
+    border: none;
+    color: white;
+    font-size: 18px;
+    font-weight: bold;
+    cursor: pointer;
+    padding: 10px;
+}
+
+/* Hide the default select box */
+#services {
+    appearance: none;  /* Removes default dropdown styling */
+    border: none;
+    background: none;
+    color: transparent; /* Hides text */
+    position: absolute;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    cursor: pointer;
+}
+
+
+
+#services{
+    position: absolute;
+    top: 100%;
+    left: 0;
+    width: 100%;
+    opacity: 0;
+    cursor: pointer;
+}
+
+label {
+    display: block;
+    margin-bottom : 8px;
+    font-weight: bold;
+}
+
+select {
+    padding: 10px;
+    font-size: 16px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    width: 100%;
+    max-width: 300px;
+}
+.text-link {
+    color: inherit;  /* Keeps the text color same as normal text */
+    text-decoration: none; /* Removes underline */
+    cursor: pointer; /* Shows pointer on hover */
+}
+
+/*.text-link:hover {
+    text-decoration: underline; /* Optional: Add underline on hover 
+}*/
+
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f8f6f3;
+}
+
+.services {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 50px;
+    background-color:#f6c9a3;
+}
+
+.service-container {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 30px;
+}
+
+.service {
+    background: #FF9138;
+    padding: 20px;
+    text-align: center;
+    border-radius: 10px;
+    box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.1);
+    transition: transform 0.3s;
+}
+
+.service:hover {
+    transform: scale(1.05);
+}
+
+.service i {
+    font-size: 50px;
+    color: orange;
+}
+
+.service h3 {
+    margin-top: 10px;
+    font-size: 18px;
+}
+
+.offer-text {
+    text-align: left;
+    width: 300px;
+}
+
+.offer-text h1 {
+    font-size: 40px;
+    font-weight: bold;
+}
+
+.btn {
+    background-color: #ff5a5f;
+    color: white;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    font-size: 16px;
+    cursor: pointer;
+    transition: background 0.3s;
+}
+
+.btn:hover {
+    background-color: #e0484d;
+}
+
+/*photos*/
+.event{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 50px;
+    text-align: center;
+    border-radius: 10px;
+    box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.1);
+    transition: transform 0.3s;
+}
+
+
+.event-container {
+    display: flex;
+    gap: 20px;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+.event-card {
+    background: rgba(243, 98, 14, 0.8);
+    border-radius: 8px;
+    overflow: hidden;
+    width: 250px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    text-align: center;
+    transition: transform 0.3s ease-in-out;
+}
+
+.event-card img {
+    width: 100%;
+    height: 160px;
+    object-fit: cover;
+}
+
+.event-card h3 {
+    padding: 15px;
+    font-size: 18px;
+    font-weight: bold;
+    color: #282727;
+}
+
+.event-card:hover {
+    transform: scale(1.05);
+}
